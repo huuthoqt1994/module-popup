@@ -39,5 +39,5 @@ jQuery.cookie = function(key, value, options) {
 		return s;
 	} : decodeURIComponent;
 	return (result = new RegExp('(?:^|; )' + encodeURIComponent(key)
-			+ '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
+ 			+ '=([^;]*)').exec(document.cookie)) ? decode(result[1]) : null;
 };
